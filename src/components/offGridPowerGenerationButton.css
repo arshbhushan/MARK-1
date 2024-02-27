@@ -1,0 +1,9 @@
+.off-grid-power-generation-button {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    border-radius: 100%;
+  }
+  .off-grid-power-generation-button[shape="square"] {
+    border-radius: 50%;
+  }
