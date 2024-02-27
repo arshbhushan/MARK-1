@@ -1,10 +1,11 @@
 import React from 'react'
 import Navbar from './Navbar'
 import BannerBackground from '../Assets/backGround.jpg'
-
+import HorizontalScroller from './HorizontalScroller.js';
 const Home = () => {
 
       return (
+     <>
         <div className='home-container'>
           <Navbar />
           <div className='home-banner-container'>
@@ -15,10 +16,12 @@ const Home = () => {
                 Lighting Tomorrow.
               </h2>
             </div>
-
           </div>
-          
         </div>
+        <div>
+<HorizontalScroller/>
+        </div>
+</>
       );
     };
 
