@@ -27,7 +27,7 @@ body {
 nav {
   position: absolute;
   top: 0;
-  left: 0;
+  left: 1cm;
   right: 0;
   z-index: 1; /* Ensure the navbar is above the image */
   display: flex;
@@ -168,7 +168,7 @@ nav {
 .secondary-button:hover {
   background-color: #e48f0f;
 }
-.about-section-container {
+/* .about-section-container {
   margin-top: 20rem;
   position: relative;
   display: flex;
@@ -198,8 +198,8 @@ nav {
 .about-buttons-container {
   margin-top: 2rem;
   display: flex;
-}
-.watch-video-button {
+} */
+/* .watch-video-button {
   margin-left: 2rem;
   background-color: transparent;
   outline: none;
@@ -245,7 +245,7 @@ nav {
   outline: none;
   font-size: 1.3rem;
   padding: 0.5rem 1rem;
-}
+} */
 .footer-wrapper {
   margin: 6rem 0rem;
   display: flex;
@@ -385,7 +385,7 @@ nav {
     max-width: 450px;
   }
   .home-banner-container,
-  .about-section-container {
+  /* .about-section-container {
     flex-direction: column-reverse;
     align-items: center;
     justify-content: center;
@@ -419,11 +419,11 @@ nav {
   }
   .about-section-container {
     margin-top: 5rem !important;
-  }
-  .about-buttons-container {
+  } */
+  /* .about-buttons-container {
     justify-content: center;
     flex-direction: column;
-  }
+  } */
   .primary-subheading {
     text-align: center;
   }
@@ -435,9 +435,9 @@ nav {
   .watch-video-button svg {
     margin-right: 0.5rem !important;
   }
-  .about-section-image-container {
+  /* .about-section-image-container {
     margin-right: 0rem !important;
-  }
+  } */
   .work-section-wrapper {
     margin-top: 5rem !important;
   }

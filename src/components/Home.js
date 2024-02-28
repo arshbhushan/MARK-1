@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from './Navbar'
-import BannerBackground from '../Assets/backGround.jpg'
+import BannerBackground from '../Assets/BackgroundImage.png'
 import HorizontalScroller from './HorizontalScroller.js';
 const Home = () => {
 
