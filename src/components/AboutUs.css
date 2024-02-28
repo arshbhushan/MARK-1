@@ -27,7 +27,17 @@
   }
   
   .about-section-text-container {
-    text-align: center;
-    margin-top: 20px; /* Add margin between text and images */
+    position: relative;
   }
+  
+  .about-text {
+    position: absolute;
+    top: 18%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: #2E600B; /* Adjust text color as needed */
+    font-size: 1.8rem;
+    z-index: 2; /* Ensure text is above the image */
+  }
+  
   

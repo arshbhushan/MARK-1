@@ -12,11 +12,12 @@ const About = () => {
       {/* <div className="about-section-image-container">
         <img src='/AboutUs.png' alt="About Section Image" />
       </div> */}
-      <div className="about-section-text-container">
+       <div className="about-section-text-container">
         {/* Rest of your content */}
-      </div>
-      <div >
-      <img src='/AboutUs_Description.png' alt="About Background" />
+        <p className="about-text">
+          MARK 1, Experience the future of sustainable energy with our groundbreaking Self-Sustaining Electromagnetic Engine. Harnessing the power of solenoids, electromagnets, and regenerative braking, this innovative system transforms motion into electricity, providing a perpetual cycle of clean energy.
+        </p>
+        <img src='/AboutUs_Description.png' alt="About Background" />
       </div>
     </div>
   );
