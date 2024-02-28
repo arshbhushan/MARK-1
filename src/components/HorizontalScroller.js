@@ -1,4 +1,5 @@
 import React from 'react';
+import Slider from 'react-slick';
 import './HorizontalScroller.css'; // Import the CSS file
 
 const featuresData = [
@@ -9,9 +10,32 @@ const featuresData = [
 ];
 
 const HorizontalScroller = () => {
+  const settings = {
+    dots: false,
+    infinite: true,
+    speed: 1000,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    autoplay: true,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+    ],
+  };
+
   return (
     <div className="horizontal-scroller-container">
-      <div className="scroller-content">
+      <Slider {...settings}>
         {featuresData.map((data, index) => (
           <div key={index} className="feature-wrapper">
             <div className="feature-box">
@@ -20,7 +44,7 @@ const HorizontalScroller = () => {
             </div>
           </div>
         ))}
-      </div>
+      </Slider>
     </div>
   );
 };
