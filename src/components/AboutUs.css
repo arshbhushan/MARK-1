@@ -32,12 +32,14 @@
   
   .about-text {
     position: absolute;
-    top: 18%;
-    left: 30%;
+    top: 22%;
+    left: 40%;
     transform: translate(-50%, -50%);
     color: #2E600B; /* Adjust text color as needed */
     font-size: 1.8rem;
     z-index: 2; /* Ensure text is above the image */
   }
-  
+  .about-section-text-container img {
+    margin-left: 150px; /* Adjust the margin as needed */
+  }
   
