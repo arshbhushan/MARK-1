@@ -3,10 +3,10 @@ import Slider from 'react-slick';
 import './HorizontalScroller.css'; // Import the CSS file
 
 const featuresData = [
-  { feature: 'Off-Grid Power Generation', imageUrl: '/offGrid.png' },
-  { feature: 'Regenerative Braking', imageUrl: '/regenerative_braking.png' },
-  { feature: 'Self-Sustaining Power Generation', imageUrl: '/sustainableenergy.png' },
-  { feature: 'Motor Contor', imageUrl: '/motorControl.png' },
+  { feature: 'Off-Grid Power Generation', imageUrl: '/offGrid.png',color:'#2E600B' },
+  { feature: 'Regenerative Braking', imageUrl: '/regenerative_braking.png',color:'#4E8329' },
+  { feature: 'Self-Sustaining Power Generation', imageUrl: '/sustainableenergy.png',color:'#438812' },
+  { feature: 'Motor Control', imageUrl: '/motorControl.png',color:'#51A516' },
 ];
 
 const HorizontalScroller = () => {
@@ -38,7 +38,7 @@ const HorizontalScroller = () => {
       <Slider {...settings}>
         {featuresData.map((data, index) => (
           <div key={index} className="feature-wrapper">
-            <div className="feature-box">
+            <div className="feature-box"style={{ backgroundColor: data.color }}>
               <img className="feature-image" src={process.env.PUBLIC_URL + data.imageUrl} alt={data.feature} />
               <div className="feature-text">{data.feature}</div>
             </div>
