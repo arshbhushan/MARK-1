@@ -40,6 +40,6 @@
     z-index: 2; /* Ensure text is above the image */
   }
   .about-section-text-container img {
-    margin-left: 10px; /* Adjust the margin as needed */
+    margin-left: 200px; /* Adjust the margin as needed */
   }
   

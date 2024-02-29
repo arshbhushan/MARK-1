@@ -27,8 +27,8 @@
   justify-content: center;
   align-items: center;
   height: 70vh; /* Set the height of the container */
-  /* margin-left: 95px;
-  margin-right: 95px; */
+  margin-left: 95px;
+  margin-right: 95px;
 }
 
 .square-box-goal {
@@ -108,9 +108,19 @@
   transform: translateX(-50%);
 }
 
+.goal-image-one {
+  width: 70px; /* Adjust based on your design */
+  height:70px; /* Adjust based on your design */
+  object-fit: cover;
+  border-radius: 50%; /* Ensure the image is circular */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 .goal-image {
-  width: 50px; /* Adjust based on your design */
-  height: 50px; /* Adjust based on your design */
+  width: 48px; /* Adjust based on your design */
+  height:48px; /* Adjust based on your design */
   object-fit: cover;
   border-radius: 50%; /* Ensure the image is circular */
   position: absolute;

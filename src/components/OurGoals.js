@@ -12,7 +12,7 @@ export default function OurGoals() {
                     <div class="grey-box-1"></div>
                     <div class="grey-box-2"></div>
                     <div className="goal-circle">
-                        <img className="goal-image" src="/sustainableenergy.png" alt="Goal Image" />
+                        <img className="goal-image-one" src="/sustainableenergy.png" alt="Goal Image" />
                     </div>
                     <div className="goal-text-box">Self-Sustaining Power</div>
                     <div className="goal-text">
