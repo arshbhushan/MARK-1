@@ -201,7 +201,7 @@
 
   .goal-image-one{
     max-width: 170%; /* Make the image responsive within its container */
-    max-height: 170%; /* Make the image responsive within its container */
+    max-height: 0%; /* Make the image responsive within its container */
   }
   .goal-image {
     width: 50px; /* Adjust based on your design */
