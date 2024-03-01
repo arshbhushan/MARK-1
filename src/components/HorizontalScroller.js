@@ -2,6 +2,8 @@ import React from 'react';
 import Slider from 'react-slick';
 import './HorizontalScroller.css'; // Import the CSS file
 
+
+
 const featuresData = [
   { feature: 'Off-Grid Power Generation', imageUrl: '/offGrid.png',color:'#2E600B' },
   { feature: 'Regenerative Braking', imageUrl: '/regenerative_braking.png',color:'#4E8329' },

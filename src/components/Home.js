@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from './Navbar'
 import BannerBackground from '../Assets/BackgroundImage.png'
-import HorizontalScroller from './HorizontalScroller.js';
+// import HorizontalScroller from './HorizontalScroller.js';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 const Home = () => {
@@ -21,7 +21,7 @@ const Home = () => {
           </div>
         </div>
         <div>
-<HorizontalScroller/>
+{/* <HorizontalScroller/> */}
         </div>
 </>
       );

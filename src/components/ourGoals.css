@@ -165,6 +165,69 @@
   z-index: 1; /* Ensure the image is above the squares */
 }
 
+@media (max-width: 760px) {
+  .goals-background-image-container,
+  .goals-section-image-container {
+    height: auto; /* Allow height to adjust based on content */
+    padding: 10px; /* Adjust padding */
+    margin-top: 10px; /* Adjust margin top */
+    margin-bottom: 80px;
+  }
+
+  .goals-background-image-container img,
+  .goals-section-image-container img {
+    max-width: 30%; /* Make the image responsive within its container */
+    max-height: 30%; /* Make the image responsive within its container */
+    border-radius: 10px; /* Maintain border-radius */
+  }
+
+  .Goals-container {
+    flex-direction: column; /* Change to a column layout for smaller screens */
+    align-items: center; /* Center items in a column layout */
+    margin-left: 50px; /* Adjust margin if needed */
+    margin-right: 50px; /* Adjust margin if needed */
+  }
+  .square-box-goal {
+    width: 40%; /* Make the squares take full width */
+    height: 10; /* Allow height to adjust based on content */
+    margin: 15px -60px; /* Adjust margin between squares */
+  }
+
+  .goal-circle {
+    top: -70px; /* Adjust based on your design */
+    left: 10%;
+    transform: translateX(-50%);
+  }
+
+  .goal-image-one{
+    max-width: 170%; /* Make the image responsive within its container */
+    max-height: 170%; /* Make the image responsive within its container */
+  }
+  .goal-image {
+    width: 50px; /* Adjust based on your design */
+    height: 50px; /* Adjust based on your design */
+  }
+
+  .goal-text-box {
+    width: 130%; /* Make the text box take full width */
+    height: 120px;
+    text-align: center; /* Center text in a column layout */
+    left: 0%; /* Adjust based on your design */
+    transform: translateY(-130%);
+  }
+
+  .goal-text {
+    padding: 25px; /* Adjust padding */
+  }
+
+  .center-image {
+    width: 40%; /* Make the image take full width */
+    /* height: 50%; */
+    padding: 35px;
+  }
+}
+
+
 
 /* image csss of divs are not created */
 /* .goals-section-container {
