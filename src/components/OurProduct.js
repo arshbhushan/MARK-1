@@ -1,11 +1,14 @@
-// OurProduct.js
 import React from 'react';
 import Slider from 'react-slick';
+import YouTube from 'react-youtube';
 import './ourProduct.css'; // Import the CSS file
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
-const productImages = ['/new.jpeg','/offGrid.png'];
+const productItems = [
+  { type: 'image', source: '/new.jpeg' },
+  { type: 'video', source: 'hqzQPORMHU8' }, // YouTube video ID
+];
 
 const mainSliderSettings = {
   dots: true,
@@ -16,16 +19,20 @@ const mainSliderSettings = {
 };
 
 const OurProduct = () => {
-    return (
-        <>
+  return (
+    <>
       <div className="goals-background-image-container">
         <img src='/ourProduct.png' alt="Product Background" />
-            </div>
+      </div>
       <div className="our-product-container">
         <Slider {...mainSliderSettings} className="custom-slider">
-          {productImages.map((image, index) => (
-              <div key={index} className="product-image">
-              <img src={image} alt={`Product ${index + 1}`} />
+          {productItems.map((item, index) => (
+            <div key={index} className="product-item">
+              {item.type === 'image' ? (
+                <img src={item.source} alt={`Product ${index + 1}`} />
+              ) : (
+                <YouTube videoId={item.source} />
+              )}
             </div>
           ))}
         </Slider>
