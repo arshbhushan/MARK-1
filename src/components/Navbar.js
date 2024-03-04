@@ -1,6 +1,6 @@
 import React ,{useState} from 'react';
 import Logo from "../Assets/Logow-nobg.png";
-import {BsCart2} from 'react-icons/bs';
+//import {BsCart2} from 'react-icons/bs';
 import {HiOutlineBars3} from 'react-icons/hi2';
 import Box from "@mui/material/Box";
 import Drawer from "@mui/material/Drawer";
