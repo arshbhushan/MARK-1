@@ -14,7 +14,7 @@ function App() {
     <OurGoals/>
     <OurProduct/>
     </div>
-    <div>hello</div>
+    
     </>
   );
 }
