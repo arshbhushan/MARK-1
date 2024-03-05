@@ -1,4 +1,5 @@
 import React ,{useState} from 'react';
+import {Link} from 'react-scroll';
 import Logo from "../Assets/Logow-nobg.png";
 //import {BsCart2} from 'react-icons/bs';
 import {HiOutlineBars3} from 'react-icons/hi2';
@@ -18,6 +19,7 @@ import PhoneRoundedIcon from '@mui/icons-material/PhoneRounded';
 
 
 
+
 const Navbar = () => {
     const [openMenu,setOpenMenu]=useState(false);
     const menuOptions=[
@@ -28,7 +30,10 @@ const Navbar = () => {
         {
             text:"About Us",
             icon:<InfoIcon/>
-        },
+        },{
+          text:"Our Goals",
+          icon:<InfoIcon/>
+      },
         {
             text:"Product",
             icon:<HomeIcon/>
@@ -48,12 +53,13 @@ const Navbar = () => {
         <img src={Logo} alt=''/>
         </div>
         <div className='navbar-links-container'>
-            <a href=''>Home</a>
-            <a href=''>About Us</a>
-            <a href=''>Product</a>
-            <a href=''>Contact Us</a>
 
-        </div>
+        <Link to="home" spy={true} smooth={true} offset={50} duration={500} >Home</Link>
+        <Link to="about" spy={true} smooth={true} offset={50} duration={500}>About Us</Link>
+        <Link to="goals" spy={true} smooth={true} offset={50} duration={500} >Our Goals</Link>
+        <Link to="product" spy={true} smooth={true} offset={50} duration={500} >Product</Link>
+        <Link to="contact" spy={true} smooth={true} offset={50} duration={500} >Contact Us</Link>
+                </div>
         <div>
         <button className='primary-button'>Get Started</button>
 

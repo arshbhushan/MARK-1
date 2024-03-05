@@ -21,7 +21,7 @@ const mainSliderSettings = {
 const OurProduct = () => {
   return (
     <>
-      <div className="goals-background-image-container">
+      <div className="goals-background-image-container" id='product'>
         <img src='/ourProduct.png' alt="Product Background" />
       </div>
       <div className="our-product-container">

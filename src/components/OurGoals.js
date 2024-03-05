@@ -4,9 +4,9 @@ import './ourGoals.css';
 export default function OurGoals() {
     return (
         <>
-            <div className="goals-background-image-container"> <img src='/OurGoal.png' alt="Goals Background" />
+            <div className="goals-background-image-container" id='goals'> <img src='/OurGoal.png' alt="Goals Background"  />
             </div>
-            <div className="Goals-container">
+            <div className="Goals-container" >
 
                 <div className="square-box-goal top-left">
                     <div class="grey-box-1"></div>

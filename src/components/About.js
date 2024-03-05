@@ -4,7 +4,7 @@ import './AboutUs.css'; // Import the CSS file
 const About = () => {
   return (
     <>   
-      <div className="about-section-container">
+      <div className="about-section-container" id="about">
         <div className="about-background-image-container">
           <img src='/AboutUs.png' alt="About Background" />
         </div>

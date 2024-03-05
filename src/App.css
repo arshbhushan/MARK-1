@@ -56,6 +56,7 @@ nav {
   text-decoration: none;
   color: rgb(255, 255, 255);
   font-size: 1.1rem;
+  cursor: pointer;
   font-weight: 600;
 }
 
@@ -249,7 +250,10 @@ nav {
 .footer-wrapper {
   margin: 6rem 0rem;
   display: flex;
-  margin-top: 10rem;
+  
+  background-color: #2E600B;
+  margin-top: 5rem;
+  margin-bottom: 0rem;
 }
 .footer-logo-container {
   max-width: 110px;
@@ -273,12 +277,12 @@ nav {
 .footer-section-columns {
   display: flex;
   flex-direction: column;
-  min-width: 190px;
+  min-width: 380px;
 }
 .footer-section-columns span {
   margin: 0.25rem 0rem;
   font-weight: 600;
-  color: #4c4c4c;
+  color: white;
   cursor: pointer;
 }
 .testimonial-section-bottom {
