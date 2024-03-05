@@ -6,7 +6,9 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
 const productItems = [
-  { type: 'image', source: '/new.jpeg' },
+  { type: 'image', source: '/mainImage.jpg' },
+  { type: 'image', source: '/secondImage.jpg' },
+  { type: 'image', source: '/thirdImage.jpg' },
   { type: 'video', source: 'hqzQPORMHU8' }, // YouTube video ID
 ];
 

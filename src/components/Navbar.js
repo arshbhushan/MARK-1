@@ -56,7 +56,7 @@ const Navbar = () => {
 
         <Link to="home" spy={true} smooth={true} offset={50} duration={500} >Home</Link>
         <Link to="about" spy={true} smooth={true} offset={50} duration={500}>About Us</Link>
-        <Link to="goals" spy={true} smooth={true} offset={50} duration={500} >Our Goals</Link>
+        <Link to="goals" spy={true} smooth={true} offset={50} duration={500} >Goals</Link>
         <Link to="product" spy={true} smooth={true} offset={50} duration={500} >Product</Link>
         <Link to="contact" spy={true} smooth={true} offset={50} duration={500} >Contact Us</Link>
                 </div>
