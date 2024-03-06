@@ -61,7 +61,7 @@ const Navbar = () => {
         <Link to="contact" spy={true} smooth={true} offset={50} duration={500} >Contact Us</Link>
                 </div>
         <div>
-        <button className='primary-button'>Get Started</button>
+        {/* <button className='primary-button'>Get Started</button> */}
 
         </div>
         <div className='navbar-menu-container'>

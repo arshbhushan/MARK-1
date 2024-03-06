@@ -51,8 +51,9 @@ const OurProduct = () => {
 
           <h3>Specifications</h3>
           <ul>
-            <li>Specification 1: Lorem ipsum</li>
-            <li>Specification 2: Dolor sit amet</li>
+            <li>Specification 1: Solenoid Engine</li>
+            <li>Specification 2:   Breaking</li>
+            <li>Specification 3: Speed & Energy Control</li>
             {/* Add more specifications as needed */}
           </ul>
         </div>
